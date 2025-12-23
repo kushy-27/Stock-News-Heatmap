@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stock News Heatmap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        img {
+            max-width: 600px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        select {
+            padding: 6px;
+            margin-right: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>📊 Stock News Heatmap</h1>
+
+<h2>Sector Heatmap</h2>
+<img src="/UI/sector_heatmap.png" alt="Sector Heatmap">
+
+<h2>Ticker Heatmap</h2>
+<img src="/UI/ticker_heatmap.png" alt="Ticker Heatmap">
+
+<hr>
+
+<h2>📰 News Explorer</h2>
+
+<select id="mode">
+    <option value="sector">By Sector</option>
+    <option value="ticker">By Ticker</option>
+</select>
+
+<select id="selector">
+    <option>Select value</option>
+</select>
+
+<button onclick="loadNews()">Load News</button>
+
+<ul id="news"></ul>
+
+<script>
+    const sectorList = [
+    "Nifty Financial Services",
+    "Nifty Bank",
+    "Nifty Oil and Gas",
+    "Nifty IT",
+    "Nifty Consumer Durables",
+    "Nifty Pharma",
+    "Nifty Auto",
+    "Nifty FMCG",
+    "Nifty Metal",
+    "Nifty Realty",
+    "Nifty Media",
+    "Nifty MidSmall IT & Telecom"
+];
+
+const tickerList = [
+    "BAJFINANCE", "BAJAJFINSV", "PAYTM", "SHRIRAMFIN",
+    "HDFCBANK", "ICICIBANK", "SBIN", "AXISBANK", "KOTAKBANK",
+    "INDUSINDBK", "YESBANK", "RBLBANK", "IDFCFIRSTB",
+    "RELIANCE", "ONGC", "IOC", "BPCL", "NTPC", "ADANIGREEN", "ADANIPOWER",
+    "TCS", "INFY", "WIPRO", "HCLTECH", "MPHASIS", "TECHM", "LTIM", "BEL", "NEWGEN",
+    "ETERNAL", "VOLTAS", "TRENT", "TITAN", "MEESHO", "LENSKART", "FLIPKART", 
+    "CELLOWORLD", "SWIGGY",
+    "SUNPHARMA", "DRREDDY", "CIPLA", "AUROPHARMA", "LUPIN",
+    "MARUTI", "TATAMOTORS", "M&M", "HEROMOTOCO", "BAJAJ-AUTO", "OLAELEC",
+    "ITC", "HINDUNILVR", "NESTLEIND", "BRITANNIA", "TATACONSUM",
+    "LT", "TATASTEEL", "HINDALCO", "VEDL", "HINDZINC", "JSWSTEEL", 
+    "ASHOKA", "APLAPOLLO",
+    "DLF", "GODREJPROP", "BLKASHYAP",
+    "PVRINOX", "ZEEL", "SUNTV", "IDEA",
+    "BHARTIARTL", "BLS"
+].sort();
+
+const selector = document.getElementById("selector");
+const mode = document.getElementById("mode");
+
+function populate() {
+    selector.innerHTML = "";
+    const list = mode.value === "sector" ? sectorList : tickerList;
+    list.forEach(v => {
+        const opt = document.createElement("option");
+        opt.value = v;
+        opt.textContent = v;
+        selector.appendChild(opt);
+    });
+}
+
+mode.addEventListener("change", populate);
+populate();
+
+async function loadNews() {
+    const value = selector.value;
+    const endpoint = mode.value === "sector"
+        ? `/news/by-sector?sector=${encodeURIComponent(value)}`
+        : `/news/by-ticker?ticker=${encodeURIComponent(value)}`;
+
+    const res = await fetch(endpoint);
+    const data = await res.json();
+
+    const ul = document.getElementById("news");
+    ul.innerHTML = "";
+
+    data.forEach(a => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+            <b>${a.title}</b><br>
+            Sentiment: ${a.sentiment.toFixed(2)} |
+            Confidence: ${a.confidence.toFixed(2)} |
+            Source: ${a.source}
+        `;
+        ul.appendChild(li);
+    });
+}
+</script>
+
+</body>
+</html>
