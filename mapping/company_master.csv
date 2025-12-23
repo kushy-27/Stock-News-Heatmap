@@ -1,0 +1,166 @@
+company_name,ticker,sector
+Bajaj Finance,BAJFINANCE,Nifty Financial Services
+Bajaj Finserv,BAJAJFINSV,Nifty Financial Services
+Paytm,PAYTM,Nifty Financial Services
+One97 Communications,PAYTM,Nifty Financial Services
+Shriram Finance,SHRIRAMFIN,Nifty Financial Services
+HDFC Bank,HDFCBANK,Nifty Bank
+State Bank of India,SBIN,Nifty Bank
+Axis Bank,AXISBANK,Nifty Bank
+Kotak Mahindra Bank,KOTAKBANK,Nifty Bank
+IndusInd Bank,INDUSINDBK,Nifty Bank
+Yes Bank,YESBANK,Nifty Bank
+RBL Bank,RBLBANK,Nifty Bank
+IDFC First Bank,IDFCFIRSTB,Nifty Bank
+Reliance Industries,RELIANCE,Nifty Oil and Gas
+ONGC,ONGC,Nifty Oil and Gas
+Indian Oil Corporation,IOC,Nifty Oil and Gas
+BPCL,BPCL,Nifty Oil and Gas
+NTPC,NTPC,Nifty Oil and Gas
+Adani Green Energy,ADANIGREEN,Nifty Oil and Gas
+Adani Power,ADANIPOWER,Nifty Oil and Gas
+Tata Consultancy Services,TCS,Nifty IT
+TCS,TCS,Nifty IT
+Infosys,INFY,Nifty IT
+Wipro,WIPRO,Nifty IT
+HCL Technologies,HCLTECH,Nifty IT
+Mphasis,MPHASIS,Nifty IT
+Eternal,ETERNAL,Nifty Consumer Durables
+Zomato,ETERNAL,Nifty Consumer Durables
+Tech Mahindra,TECHM,Nifty IT
+LTIMindtree,LTIM,Nifty IT
+Bharat Electronics,BEL,Nifty IT
+BEL,BEL,Nifty IT
+Sun Pharmaceutical Industries,SUNPHARMA,Nifty Pharma
+Dr Reddys Laboratories,DRREDDY,Nifty Pharma
+Dr Reddy's,DRREDDY,Nifty Pharma
+Cipla,CIPLA,Nifty Pharma
+Aurobindo Pharma,AUROPHARMA,Nifty Pharma
+Lupin,LUPIN,Nifty Pharma
+Maruti Suzuki India,MARUTI,Nifty Auto
+Tata Motors,TATAMOTORS,Nifty Auto
+Mahindra and Mahindra,M&M,Nifty Auto
+Hero MotoCorp,HEROMOTOCO,Nifty Auto
+Bajaj Auto,BAJAJ-AUTO,Nifty Auto
+ITC,ITC,Nifty FMCG
+Hindustan Unilever,HINDUNILVR,Nifty FMCG
+Nestle India,NESTLEIND,Nifty FMCG
+Britannia Industries,BRITANNIA,Nifty FMCG
+Tata Consumer Products,TATACONSUM,Nifty FMCG
+Larsen and Toubro,LT,Nifty Metal
+L&T,LT,Nifty Metal
+Tata Steel,TATASTEEL,Nifty Metal
+Hindalco Industries,HINDALCO,Nifty Metal
+Vedanta,VEDL,Nifty Metal
+Hindustan Zinc,HINDZINC,Nifty Metal
+JSW Steel,JSWSTEEL,Nifty Metal
+Ashoka Buildcon,ASHOKA,Nifty Realty
+DLF,DLF,Nifty Realty
+Godrej Properties,GODREJPROP,Nifty Realty
+PVR Inox,PVRINOX,Nifty Media
+Zee Entertainment,ZEEL,Nifty Media
+Sun TV Network,SUNTV,Nifty Media
+Trent,TRENT,Nifty Consumer Durables
+Titan Company,TITAN,Nifty Consumer Durables
+Meesho,MEESHO,Nifty Consumer Durables
+Lenskart,LENSKART,Nifty Consumer Durables
+Flipkart,FLIPKART,Nifty Consumer Durables
+Cello World,CELLOWORLD,Nifty Consumer Durables
+Newgen Software,NEWGEN,Nifty IT
+BL Kashyap & Sons,BLKASHYAP,Nifty Realty
+Bharti Airtel,BHARTIARTL,Nifty MidSmall IT & Telecom
+Voltas,VOLTAS,Nifty Consumer Durables
+Vodafone Idea,IDEA,Nifty Media
+Ashwini Container Movers,ASHWINI,Nifty Metal
+BLS International Services,BLS,Nifty Financial Services
+OLA Electric Mobility,OLAELEC,Nifty Auto
+APL Apollo Tubes,APLAPOLLO,Nifty Metal
+Airtel,BHARTIARTL,Nifty MidSmall IT & Telecom
+Swiggy,SWIGGY,Nifty Consumer Durables
+Uno Minda,UNOMINDA,Nifty Auto
+Motherson Sumi,MOTHERSON,Nifty Auto
+Bosch,BOSCHLTD,Nifty Auto
+Eicher Motors,EICHERMOT,Nifty Auto
+TVS Motor Company,TVSMOTOR,Nifty Auto
+Ashok Leyland,ASHOKLEY,Nifty Auto
+Tube Investments,TIINDIA,Nifty Auto
+Apollo Tyres,APOLLOTYRE,Nifty Auto
+MRF,MRF,Nifty Auto
+Balkrishna Industries,BALKRISIND,Nifty Auto
+UltraTech Cement,ULTRACEMCO,Nifty Metal
+Ambuja Cements,AMBUJACEM,Nifty Metal
+Grasim Industries,GRASIM,Nifty Metal
+Dalmia Bharat,DALBHARAT,Nifty Metal
+Coal India,COALINDIA,Nifty Metal
+NMDC,NMDC,Nifty Metal
+Hindusthan National Glass,HNG,Nifty Metal
+Welspun Corp,WELCORP,Nifty Metal
+Asian Paints,ASIANPAINT,Nifty FMCG
+Godrej Consumer Products,GODREJCP,Nifty FMCG
+Dabur India,DABUR,Nifty FMCG
+Marico,MARICO,Nifty FMCG
+Colgate-Palmolive India,COLPAL,Nifty FMCG
+Emami,EMAMILTD,Nifty FMCG
+Varun Beverages,VBL,Nifty FMCG
+United Spirits,MCDOWELL-N,Nifty FMCG
+United Breweries,UBL,Nifty FMCG
+Power Grid Corporation,POWERGRID,Nifty Oil and Gas
+Tata Power,TATAPOWER,Nifty Oil and Gas
+Adani Transmission,ADANITRANS,Nifty Oil and Gas
+Torrent Power,TORNTPOWER,Nifty Oil and Gas
+JSW Energy,JSWENERGY,Nifty Oil and Gas
+GAIL India,GAIL,Nifty Oil and Gas
+Petronet LNG,PETRONET,Nifty Oil and Gas
+Hindustan Petroleum,HINDPETRO,Nifty Oil and Gas
+Torrent Pharmaceuticals,TORNTPHARM,Nifty Pharma
+Glenmark Pharmaceuticals,GLENMARK,Nifty Pharma
+Biocon,BIOCON,Nifty Pharma
+Divis Laboratories,DIVISLAB,Nifty Pharma
+Alkem Laboratories,ALKEM,Nifty Pharma
+Zydus Lifesciences,ZYDUSLIFE,Nifty Pharma
+Persistent Systems,PERSISTENT,Nifty IT
+Coforge,COFORGE,Nifty IT
+L&T Technology Services,LTTS,Nifty IT
+Tata Elxsi,TATAELXSI,Nifty IT
+Cyient,CYIENT,Nifty IT
+Zensar Technologies,ZENSAR,Nifty IT
+KPIT Technologies,KPITTECH,Nifty IT
+Happiest Minds,HAPPSTMNDS,Nifty IT
+Dixon Technologies,DIXON,Nifty Consumer Durables
+Havells India,HAVELLS,Nifty Consumer Durables
+Crompton Greaves Consumer,CROMPTON,Nifty Consumer Durables
+V-Guard Industries,VGUARD,Nifty Consumer Durables
+Whirlpool of India,WHIRLPOOL,Nifty Consumer Durables
+Symphony,SYMPHONY,Nifty Consumer Durables
+Blue Star,BLUESTAR,Nifty Consumer Durables
+Bajaj Electricals,BAJAJELEC,Nifty Consumer Durables
+Relaxo Footwears,RELAXO,Nifty Consumer Durables
+Bata India,BATAINDIA,Nifty Consumer Durables
+Avenue Supermarts (DMart),DMART,Nifty Consumer Durables
+Shoppers Stop,SHOPERSTOP,Nifty Consumer Durables
+Phoenix Mills,PHOENIXLTD,Nifty Realty
+Oberoi Realty,OBEROIRLTY,Nifty Realty
+Prestige Estates,PRESTIGE,Nifty Realty
+Brigade Enterprises,BRIGADE,Nifty Realty
+Macrotech Developers,LODHA,Nifty Realty
+Mahindra Lifespace,MAHLIFE,Nifty Realty
+Sunteck Realty,SUNTECK,Nifty Realty
+HDFC Life Insurance,HDFCLIFE,Nifty Financial Services
+SBI Life Insurance,SBILIFE,Nifty Financial Services
+ICICI Prudential Life,ICICIPRULI,Nifty Financial Services
+Max Financial Services,MFSL,Nifty Financial Services
+SBI Cards,SBICARD,Nifty Financial Services
+Muthoot Finance,MUTHOOTFIN,Nifty Financial Services
+Cholamandalam Investment,CHOLAFIN,Nifty Financial Services
+PNB Housing Finance,PNBHOUSING,Nifty Financial Services
+LIC Housing Finance,LICHSGFIN,Nifty Financial Services
+IIFL Finance,IIFL,Nifty Financial Services
+Jio Financial Services,JIOFIN,Nifty Financial Services
+Network18 Media,NETWORK18,Nifty Media
+TV18 Broadcast,TV18BRDCST,Nifty Media
+Hathway Cable,HATHWAY,Nifty Media
+Dish TV India,DISHTV,Nifty Media
+Saregama India,SAREGAMA,Nifty Media
+Tips Industries,TIPSINDLTD,Nifty Media
+Nazara Technologies,NAZARA,Nifty Media
+Anant Raj Limited,ANANTRAJ,Nifty Realty
