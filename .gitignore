@@ -215,3 +215,5 @@ UI/*.png
 
 # Local configs
 config/*.local.*
+
+storage/
