@@ -5,10 +5,17 @@ import matplotlib.pyplot as plt # type: ignore
 with open("Data/processed/ticker_sentiment_heatmap.json") as f:
     data = json.load(f)
 
-sectors = list(data.keys())
-sentiments = sorted(np.array([data[s]["avg_sentiment"] for s in sectors]).reshape(-1, 1))
+tickers = sorted(
+    data.keys(),
+    key=lambda s: data[s]["avg_sentiment"],
+    reverse=True
+)
 
-fig, ax = plt.subplots(figsize=(6, len(sectors) * 0.4))
+sentiments = np.array(
+    [data[t]["avg_sentiment"] for t in tickers]
+).reshape(-1, 1)
+
+fig, ax = plt.subplots(figsize=(6, len(tickers) * 0.4))
 
 im = ax.imshow(
     sentiments,
@@ -20,8 +27,8 @@ im = ax.imshow(
 
 ax.set_xticks([0])
 ax.set_xticklabels(["Sentiment"])
-ax.set_yticks(range(len(sectors)))
-ax.set_yticklabels(sectors)
+ax.set_yticks(range(len(tickers)))
+ax.set_yticklabels(tickers)
 
 cbar = plt.colorbar(im, ax=ax)
 cbar.set_label("Average Sentiment")
@@ -37,4 +44,4 @@ for i, s in enumerate(sentiments[:, 0]):
 plt.title("Ticker Sentiment Heatmap")
 plt.tight_layout()
 plt.savefig("UI/ticker_heatmap.png", dpi=150)
-
+plt.show()
